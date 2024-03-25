@@ -1,0 +1,27 @@
+/* styles.css */
+
+.external {
+    color: red;
+    font-size: 24px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+#internal {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+#internal h2 {
+    color: green;
+}
+
+#internal p {
+    font-style: italic;
+}
+
+.inline {
+    color: blue;
+}
