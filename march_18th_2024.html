@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Styles can be applied to the html elements in 3 ways-->
+<!-- Inline -->
+<!-- External -->
+<!-- Embedded / internal css -->
+<!--css selectors  -->
+<!--id selector #id -->
+<!--class selector .classname -->
+<!--universal * -->
+<!--grouping all -->
+<!-- css specificity -->
+<html>
+    <head>
+        <style>
+            h2 {
+                color: purple;
+            }
+            h1 {
+                color: lime;
+            }
+        </style>
+        <link rel="stylesheet" href="march_18_2024.css" />
+    </head>
+    <body>
+       <p style="color:blue;font-size: 20px;text-decoration: underline;">this is a paragraph - line css</p>
+       <h1 id="headerone">this is austin - texas - external css</h1>
+       <h1 id="headertwo">this is austin - texas - external css</h1>
+       <h2>this is h2 html element - internal - embedded css</h2>
+       <h3 style="color: red;" id="higherpriority" class="headerthree headerthreechild headerthreechildone">this is austin - texas - external css</h1>
+       <h3 class="headerfour">this is austin - texas - external css</h1>
+    </body>
+</html>
