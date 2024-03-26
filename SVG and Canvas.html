@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG and Canvas Image</title>
+</head>
+<body>
+    <h3> Scalable Vector Graphics </h3>
+   
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red"/>
+    </svg>
+   
+    <p> SVG Rectangle </p>
+    <svg width="200" height="80">
+        <rect x="10" y="10" width="100" height="50" stroke="black" stroke-width="6" fill="pink" />
+      </svg>
+     
+     
+      
+      <p> SVG Gradient Ellipse and Text </p>
+
+      <svg height="130" width="500">
+        <defs>
+          <linearGradient id="grad1">
+            <stop offset="50%" stop-color="yellow" />
+            <stop offset="100%" stop-color="green" />
+          </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        <text fill="peach" font-size="20" font-family="canvas" x="65" y="80">Gradient </text> 
+        Sorry, your browser does not support inline SVG.
+      </svg>
+
+
+      <br><br>     
+                                                   `
+     <p> Canvas image used:</p>
+            <img id="scream" src="1.jpg" alt="The Scream" width="220" height="277">
+                                                   
+    <script>
+            function myCanvas() {
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            var img = document.getElementById("scream");
+            ctx.drawImage(img,10,10);
+            }
+    </script>
+</body>
+</html>
