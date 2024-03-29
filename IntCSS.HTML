@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IntCSS Styles</title>
+    <style>
+        #internal {
+            background-color: bisque;
+            padding: 10px;
+        }
+
+        #internal h2 {
+            color: green;
+        }
+
+        #internal p {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="external">External CSS</h1>
+    <p style="color:blue;">This paragraph is styled using an external CSS file.</p>
+
+    <div id="internal">
+        <h2>Internal CSS</h2>
+        <p style="color:darkmagenta;">This paragraph is styled using internal CSS.</p>
+    </div>
+
+    <p style="color:orange;">This paragraph is styled using inline CSS.</p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* ClassSlector.css */
+
+/* Here I am styling the class1 */
+.class1 {
+    color: pink;
+    font-size: 20px;
+}
+
+/* Here I am styling the class2 */
+.class2 {
+    color: skyblue;
+    font-size: 18px;
+}
+
+/* Here I am styling the classA that will overwrite the class1 */
+.classA {
+    color: orange;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

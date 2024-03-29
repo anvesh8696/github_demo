@@ -1,0 +1,16 @@
+/* we are externally stlying the class and id  */
+<style>
+        /* Style for ID selector */
+        #uniqueElement {
+            color: palevioletred;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+        }
+
+        /* Style for class selector */
+        .commonElement {
+            color: slateblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+        }
+    </style>
