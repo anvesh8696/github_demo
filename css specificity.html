@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>css specificity</title>
+        <style>
+            /* Element selector */
+            p {
+                color: blue;
+            }
+    
+            /* Class selector */
+            .highlight {
+                color: red;
+            }
+    
+            /* ID selector */
+            #special {
+                color: green;
+            }
+    
+            /* Specificity with pseudo-classes */
+            p:hover {
+                color: orange;
+            }
+    
+            /* Specificity with pseudo-elements */
+            p::first-letter {
+                font-size: 150%;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Element Selector</p>
+        <p class="highlight">Class Selector</p>
+        <p id="special">ID Selector</p>
+        <P style="color:hotpink;">we can see how the diffrence between asll the selectors and pseudo classes and elements</P>
+        
+    </body>
+
+</html>
