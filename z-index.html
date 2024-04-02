@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Z-Index Example</title>
+        <style>
+            /* Relative position */
+            .box1 {
+                position: relative;
+                background-color: lightblue;
+                width: 200px;
+                height: 200px;
+                z-index:1;
+            }
+            /*absolute position*/
+    
+            .box2 {
+                position: absolute;
+                top: 50px;
+                left: 50px;
+                background-color: lightcoral;
+                width: 200px;
+                height: 200px;
+                z-index:2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1">Relative Position</div>
+        <div class="box2">Absolute Position</div>
+    </body>
+</html>
